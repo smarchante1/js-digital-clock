@@ -4,13 +4,44 @@
       <title>Clock Tower</title>
       <meta charset="utf-8">
       <link href="index.css" media="screen" rel="stylesheet" type="text/css"/>
+      <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
       <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
   </head>
 
   <body>
       <h1 class='heading'>Current Time</h1>
       <div id="ClockTower" class="clock"  class='shadow-pop-br' onload="clock()"></div>
+      <section class="button-menu">
+        <h3>Change Clock Color</h3>
+        <div id="pink-button">
+            <button type="button" class="btn btn-primary">Pink</button>
+        </div>
+        <div id="purple-button">
+          <button type="button" class="btn btn-primary">Purple</button>
+        </div>
+        <div id="blue-button">
+          <button type="button" class="btn btn-primary">Blue</button>
+        </div>
+        <div id="yellow-button">
+          <button type="button" class="btn btn-primary">Yellow</button>
+        </div>
+      </section>
 
+      <section>
+        <h3>Change Clock Alignment</h3>
+      </section>
+
+      <div id="left-button">
+          <button type="button" class="btn btn-primary">Left</button>
+      </div>
+      <div id="right-button">
+          <button type="button" class="btn btn-primary">Right</button>
+      </div>
+      <div id="center-button">
+          <button type="button" class="btn btn-primary">Center</button>
+      </div>
+
+   
   </body>
     <script
       src="https://code.jquery.com/jquery-3.4.1.js"

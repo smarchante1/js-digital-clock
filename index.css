@@ -37,6 +37,54 @@ body {
   text-shadow: 0 0 20px rgb(255, 144, 251);
 }
 
+#button-holder { 
+  align-content: center;
+}
+
+.purple {
+  height: 100px;
+  width: 800px;
+  margin: auto;
+  position: absolute;
+  left: 0; right: 0;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 100px;
+  /* text-shadow: 0 0 20px rgb(255, 144, 251); */
+  text-shadow: 0 0 20px rgb(200, 144, 255);
+  color: #b35dff;
+}
+
+.blue {
+  height: 100px;
+  width: 800px;
+  margin: auto;
+  position: absolute;
+  left: 0; right: 0;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 100px;
+  /* text-shadow: 0 0 20px rgb(255, 144, 251); */
+  text-shadow: 0 0 20px rgb(144, 161, 255);
+  color: #5d7dff;
+
+}
+.yellow {
+  height: 100px;
+  width: 800px;
+  margin: auto;
+  position: absolute;
+  left: 0; right: 0;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 100px;
+  text-shadow: 0 0 20px rgb(255, 144, 251);
+  color: #ffd95d;
+}
+
 /* 
 #ClockTower:hover {
   background:   rgb(255, 146, 221);
@@ -75,4 +123,10 @@ body {
     -webkit-transform: translateX(-8px) translateY(-8px);
             transform: translateX(-8px) translateY(-8px);
   }
+}
+
+
+.button-menu {
+  display: flex;
+  flex-direction: column;
 }
