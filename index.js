@@ -34,15 +34,6 @@ const clock = function clock(){
     
   setTimeout(clock, 1000);
 
-  // const COLORS = ['blue', 'purple', 'yellow'];
-  // let colorIndex = 0;
-  
-  // const nextColor = function nextColor() {
-  //   let color = COLORS[colorIndex];
-  //   colorIndex += 1;
-  //   colorIndex %= COLORS.length;
-  //   return color;
-  // };
 
   $('#purple-button').on('click', 'button', function(event) {
     let target = $('#ClockTower');
@@ -94,6 +85,15 @@ const clock = function clock(){
       target.css('font-family', 'fantasy');
   });
 };  
+
+// $('.btn').click(function() {
+//   $('#clock').removeClass().addClass("clock");
+//   $('#clock').addClass($(this).html());
+//   this.css('text-align', 'left');
+//   this.css('text-align', 'right');
+
+// });
+
 
 
 clock();

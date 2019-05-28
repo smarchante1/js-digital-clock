@@ -136,3 +136,18 @@ body {
   font-family: 'Quicksand', sans-serif;
   font-weight: bold;  
 }
+
+.btn {
+  color: #fff !important;
+  text-transform: uppercase;
+  background: #ff8dd5;
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+  border: none;
+  width: 10%;
+}
+
+.btn:hover {
+  background: #fa3bb4;
+}
