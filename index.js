@@ -78,6 +78,21 @@ const clock = function clock(){
     let target = $('#ClockTower');
       target.css('text-align', 'center');
   });
+
+  $('#arial-button').on('click', 'button', function(event) {
+    let target = $('#ClockTower');
+      target.css('font-family', 'Arial');
+  });
+
+  $('#quicksand-button').on('click', 'button', function(event) {
+    let target = $('#ClockTower');
+      target.css('font-family', 'Quicksand');
+  });
+
+  $('#fantasy-button').on('click', 'button', function(event) {
+    let target = $('#ClockTower');
+      target.css('font-family', 'fantasy');
+  });
 };  
 
 

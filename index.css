@@ -130,3 +130,9 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+.menu-heading {
+  color: #ff5dcc;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;  
+}
