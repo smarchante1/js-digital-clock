@@ -3,6 +3,7 @@ const clock = function clock(){
   let second = date.getSeconds();
   let minute = date.getMinutes(); 
   let hour = date.getHours(); 
+
   let meridiem = "AM";
   
   if(hour == 0){
@@ -32,7 +33,7 @@ const clock = function clock(){
   document.getElementById("ClockTower").innerText = time;
     
   setTimeout(clock, 1000);
-  
+ 
 }
 
 clock();
